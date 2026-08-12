@@ -1,2 +1,2 @@
 # Camera-Cooler
-Cooling solution of astronomical camera.
+Cooling solution for astronomy camera.
