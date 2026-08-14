@@ -15,4 +15,5 @@ See the ***project-folder/LICENSES*** directory for the full license texts.
 
 ---
 
-![Assembly](https://github.com/lukaslibar/Camera-Cooler/tree/main/project-folder/https://github.com/lukaslibar/Camera-Cooler/tree/main/project-folder/camera-cooler-assembly.mp4)
+![Assembly of 3d printed parts](camera-cooler-assembly.gif)
+*Assembly of 3d printed parts and pcb*
