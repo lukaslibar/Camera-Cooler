@@ -14,3 +14,5 @@ This repository contains multiple components, each under its own license.
 See the ***project-folder/LICENSES*** directory for the full license texts.
 
 ---
+
+![Assembly](https://giphy.com/gifs/Vxgyxi9ujFjLwvq8te)
