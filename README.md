@@ -9,4 +9,4 @@ This repository contains multiple components, each under its own license.
 
 See the ***project-folder/LICENSES*** directory for the full license texts.
 
-click [here](https://luka.slibar.si/index.html)
+click [here](https://luka.slibar.si)
