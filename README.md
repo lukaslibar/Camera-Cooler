@@ -1,6 +1,10 @@
 # Camera Cooler
 Cooling solution for astronomy camera.
 
+More about the project on may [website](https://luka.slibar.si).
+
+---
+
 This repository contains multiple components, each under its own license.
 
 - Firmware - GPL-3.0
@@ -9,4 +13,5 @@ This repository contains multiple components, each under its own license.
 
 See the ***project-folder/LICENSES*** directory for the full license texts.
 
-click [here](https://luka.slibar.si)
+---
+
