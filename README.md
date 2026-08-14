@@ -15,4 +15,4 @@ See the ***project-folder/LICENSES*** directory for the full license texts.
 
 ---
 
-![Assembly](https://giphy.com/gifs/Vxgyxi9ujFjLwvq8te)
+![Assembly](https://github.com/lukaslibar/Camera-Cooler/tree/main/project-folder/https://github.com/lukaslibar/Camera-Cooler/tree/main/project-folder/camera-cooler-assembly.mp4)
