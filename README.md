@@ -28,6 +28,8 @@ The entire assembly can now be fitted into the camera enclosure so that the scre
 
 The Peltier element (TEC) needs to be fitted to the bottom of the heatsink, with thermal paste applied between the two surfaces. There are holes for its wires alongside a slit for the longer ribbon cable. The camera and the cooler can then be joined together using thermal paste between their contact surfaces. The upper camera PCB and the custom TEC driver PCB have designated positions inside the enclosure on the side. An additional fan can also be installed to cool the enclosure.
 
+---
+
 ### Additional Parts
 
 TEC
@@ -54,14 +56,16 @@ INTERFACE
 - **26 pin 0.5mm pitch 20cm** FFC(felxible flat cable) forward direction (to inteface between two camera PCBs) [link](https://www.aliexpress.com/item/1005008474655738.html?spm=a2g0o.order_list.order_list_main.60.6b821802gXbK9t)
 - **3 pin-J Micro JST XH 2.54mm pitch** male plug with wire (to connect the thermometer to the PCB) [link](https://www.aliexpress.com/item/1005007107123815.html?spm=a2g0o.order_list.order_list_main.65.6b821802gXbK9t)
 
+---
+
 ### Electrical Connections
 
 ![TEC driver electrical connections](project-folder/hardware/electrical/drawings/CC-electrical-connections.jpg)
 *TEC driver electrical connections*
 
-### Mechanical Assembly
-
 ---
+
+### Mechanical Assembly
 
 ![Assembly of 3d printed parts](project-folder/hardware/mechanical/Assembly/camera-cooler-assembly.gif)
 *Assembly of 3d printed parts and pcb*
