@@ -15,16 +15,23 @@ See the ***project-folder/LICENSES*** directory for the full license texts.
 
 ---
 
-This project is an attempt to actively cool the Svbony SV7505C astronomy camera. The cooling is intended to achieve better image quality by cooling the camera sensor through the bottom PCB. With this setup, we have achieved a temperature difference of 20 °C, but we are still trying to improve the results through better insulation. A major problem is condensation, and great care must be taken to avoid short circuits on the camera's bottom PCB. The PCB can either be placed upside down or sealed with rubber or a similar material. The cooling system is powered by a 19V DC power supply capable of supplying at least 6 A of current.
+This project is an attempt to actively cool the Svbony SV7505C astronomy camera. The cooling is intended to achieve better image quality by cooling the camera sensor through the bottom PCB. With this setup, we have achieved a temperature difference of 20°C, but we are still trying to improve the results through better insulation. A major problem is condensation, and great care must be taken to avoid short circuits on the camera's bottom PCB. The PCB can either be placed upside down or sealed with rubber or a similar material. The cooling system is powered by a 19V DC power supply capable of supplying at least 6 A of current.
 
 We are currently developing the REV B PCB, which will eliminate some issues with incorrect connectors (fen connectors) and add the ability to completely disable the Peltier element (TEC) (with an additional MOSFET). At the moment, there are MicroPython example programs for controlling the device, but we are developing a C++ driver to make the system faster and more efficient. There is also a simple GUI, but the USB port currently needs to be configured manually.
+
+PROBLEMS:
+- Only 20°C of temperature difference(?broken TEC? Possible solution: change the TEC)
+- Condensation is accumulating after long periods of runing the device(Possible solution: improve insulation, heat the other side of the camera)
+- Slow response time (Possible solution: rewrite the driver in C++)
+- Noisy fan (Possible solution: change it for a slower fan or a Noctua fan)
+- TEC always on (Solution: REV B of the PCB will have an ability to completely power it off)
 
 ---
 
 ## Instructions
 ### Tools
 - PCB Assembly: hot air gun, soldering iron, solder paste, soldering wire, flux
-- Whole assembly: 3d printer, screw drivers(philips, inbus)
+- Whole assembly: 3d printer, screwdrivers (philips, inbus)
 
 ### Additional Parts (not on the PCB)
 TEC
@@ -52,8 +59,8 @@ INTERFACE
 - **3 pin-J Micro JST XH 2.54mm pitch** male plug with wire (to connect the thermometer to the PCB) [link](https://www.aliexpress.com/item/1005007107123815.html?spm=a2g0o.order_list.order_list_main.65.6b821802gXbK9t)
 
 SCREWS
-- screws: [missing list]
-- screw inserts: [missing list]
+- Screws: [missing list]
+- Threaded inserts: [missing list]
 
 ### PCB
 PCB assembly is quite straightforward. The only exception is soldering the XL4016E1 and its heatsink. They should first be screwed together with a small amount of thermal pad or thermal paste between them. The assembly should then be placed on the PCB and soldered in place at the same time to prevent misalignment.
