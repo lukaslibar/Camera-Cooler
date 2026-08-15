@@ -22,16 +22,11 @@ We are currently developing the REV B PCB, which will eliminate some issues with
 ---
 
 ## Instructions
-First, the camera needs to be disassembled. Its top cover and upper PCB, which is connected with a short ribbon cable, need to be removed. The aluminium cooling block and the 3D-printed cooling block holder can then be assembled.
+### Tools
+- PCB Assembly: hot air gun, soldering iron, solder paste, soldering wire, flux
+- Whole assembly: 3d printer, screw drivers(philips, inbus)
 
-Place a thermal pad on the smaller side of the cooling block. The thermal pad should be cut to the same shape as that side of the block. There is a small hole on the side of the block for the temperature sensor, which must have wires soldered to it. A longer ribbon cable should be connected to the bottom PCB. A small amount of thermal paste can be applied between the temperature sensor and the cooling block to ensure more accurate temperature readings.
-
-The entire assembly can now be fitted into the camera enclosure so that the screw holes are properly aligned. The main fan and heatsink can then be screwed together, and the fan cable can be routed through the upper hole into the PCB enclosure. The complete fan and heatsink assembly can then be fitted into the main enclosure.
-
-The Peltier element (TEC) needs to be fitted to the bottom of the heatsink, with thermal paste applied between the two surfaces. There are holes for its wires alongside a slit for the longer ribbon cable. The camera and the cooler can then be joined together using thermal paste between their contact surfaces. The upper camera PCB and the custom TEC driver PCB have designated positions inside the enclosure on the side. An additional fan can also be installed to cool the enclosure.
-
-### Additional Parts
-
+### Additional Parts (not on the PCB)
 TEC
 - 15V 5A Paltier element (TEC) 40mm square
 
@@ -40,7 +35,7 @@ FANS
 - Generic **12V 40mm 2/3/4pin 10mm height** fan (to cool the enclosure) 
 
 HEATSINKS
-- 25×34×12mm TO-220 heatsink (to cool the buck converter that powers the TEC) [link](https://www.aliexpress.com/item/1005005843184927.html?spm=a2g0o.order_list.order_list_main.70.6b821802gXbK9t#nav-description)
+- 25×34×12mm TO-220 heatsink (to cool the buck converter (XL4016E1) that powers the TEC) [link](https://www.aliexpress.com/item/1005005843184927.html?spm=a2g0o.order_list.order_list_main.70.6b821802gXbK9t#nav-description)
 - Aluminium motherboard heatsink for a 40mm fan [link](https://www.aliexpress.com/item/1005009277375992.html?spm=a2g0o.order_list.order_list_main.95.6b821802gXbK9t)
 
 THERMAL PAD AND PASTE
@@ -56,16 +51,30 @@ INTERFACE
 - **26 pin 0.5mm pitch 20cm** FFC(felxible flat cable) forward direction (to inteface between two camera PCBs) [link](https://www.aliexpress.com/item/1005008474655738.html?spm=a2g0o.order_list.order_list_main.60.6b821802gXbK9t)
 - **3 pin-J Micro JST XH 2.54mm pitch** male plug with wire (to connect the thermometer to the PCB) [link](https://www.aliexpress.com/item/1005007107123815.html?spm=a2g0o.order_list.order_list_main.65.6b821802gXbK9t)
 
+SCREWS
+- screws: [missing list]
+- screw inserts: [missing list]
+
+### PCB
+PCB assembly is quite straightforward. The only exception is soldering the XL4016E1 and its heatsink. They should first be screwed together with a small amount of thermal pad or thermal paste between them. The assembly should then be placed on the PCB and soldered in place at the same time to prevent misalignment.
+
+### Assembly
+First, the camera needs to be disassembled. Its top cover and upper PCB, which is connected with a short ribbon cable, need to be removed. The aluminium cooling block and the 3D-printed cooling block holder can then be assembled. The 3d printed parts screwholes should be inserted with threaded inserts with a soldering iron or simmilar tool.
+
+Place a thermal pad on the smaller side of the cooling block. The thermal pad should be cut to the same shape as that side of the block. There is a small hole on the side of the block for the temperature sensor, which must have wires soldered to it. A longer ribbon cable should be connected to the bottom PCB. A small amount of thermal paste can be applied between the temperature sensor and the cooling block to ensure more accurate temperature readings.
+
+The entire assembly can now be fitted into the camera enclosure so that the screw holes are properly aligned. The main fan and heatsink can then be screwed together, and the fan cable can be routed through the upper hole into the PCB enclosure. The complete fan and heatsink assembly can then be fitted into the main enclosure.
+
+The Peltier element (TEC) needs to be fitted to the bottom of the heatsink, with thermal paste applied between the two surfaces. There are holes for its wires alongside a slit for the longer ribbon cable. The camera and the cooler can then be joined together using thermal paste between their contact surfaces. The upper camera PCB and the custom TEC driver PCB have designated positions inside the enclosure on the side. An additional fan can also be installed to cool the enclosure.
+
 ---
 
 ### Electrical Connections
-
 ![TEC driver electrical connections](project-folder/hardware/electrical/drawings/CC-electrical-connections.jpg)
 *TEC driver electrical connections*
 
 ---
 
 ### Mechanical Assembly
-
 ![Assembly of 3d printed parts](project-folder/hardware/mechanical/Assembly/camera-cooler-assembly.gif)
 *Assembly of 3d printed parts and pcb*
