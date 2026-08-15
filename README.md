@@ -1,7 +1,7 @@
 # Camera Cooler
 Cooling solution for Svbony SV7505C astronomy camera.
 
-More about the project on my [website](https://luka.slibar.si).
+More about the project on my [website](https://luka.slibar.si/project.html?id=project1).
 
 ---
 
