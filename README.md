@@ -56,12 +56,12 @@ INTERFACE
 
 ### Electrical Connections
 
-![TEC driver electrical connections](CC-electrical-connections.jpg)
+![TEC driver electrical connections](project-folder/hardware/electrical/drawings/CC-electrical-connections.jpg)
 *TEC driver electrical connections*
 
 ### Mechanical Assembly
 
 ---
 
-![Assembly of 3d printed parts](camera-cooler-assembly.gif)
+![Assembly of 3d printed parts](project-folder/hardware/mechanical/Assembly/camera-cooler-assembly.gif)
 *Assembly of 3d printed parts and pcb*
