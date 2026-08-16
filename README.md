@@ -25,6 +25,7 @@ PROBLEMS:
 - Slow response time (Possible solution: rewrite the driver in C++)
 - Noisy fan (Possible solution: change it for a slower fan or a Noctua fan)
 - TEC always on (Solution: REV B of the PCB will have an ability to completely power it off)
+- Openings on the camera-cooler.stl part are too small and so are hard to print (Solution: thicken them or copletely remove them)
 
 ---
 
@@ -34,31 +35,31 @@ PROBLEMS:
 - Whole assembly: 3d printer, screwdrivers (philips, inbus)
 
 ### Additional Parts (not on the PCB)
-TEC
+**TEC**
 - 15V 5A Paltier element (TEC) 40mm square
 
-FANS
+**FANS**
 - S4028-15K (**12V 40mm 4pin PC connector** (any simmilar fan will also work)) (to cool the heatsink)
 - Generic **12V 40mm 2/3/4pin 10mm height** fan (to cool the enclosure) 
 
-HEATSINKS
+**HEATSINKS**
 - 25×34×12mm TO-220 heatsink (to cool the buck converter (XL4016E1) that powers the TEC) [link](https://www.aliexpress.com/item/1005005843184927.html?spm=a2g0o.order_list.order_list_main.70.6b821802gXbK9t#nav-description)
 - Aluminium motherboard heatsink for a 40mm fan [link](https://www.aliexpress.com/item/1005009277375992.html?spm=a2g0o.order_list.order_list_main.95.6b821802gXbK9t)
 
-THERMAL PAD AND PASTE
+**THERMAL PAD AND PASTE**
 - 100x100mm 1.0mm thick pad [link](https://www.aliexpress.com/item/32988894487.html?spm=a2g0o.order_list.order_list_main.55.6b821802gXbK9t)
 - PC thermal paste
 
-THERMOMETER
+**THERMOMETER**
 - DS18B20 (**2 are already in the BOM** but only one is currently integrated)
 
-INTERFACE
+ **INTERFACE**
 - **19V 6A** (at least) DC Power Supply with **2.54mm** barrel jack (for power) [link](https://www.aliexpress.com/item/1005004085574495.html?spm=a2g0o.order_list.order_list_main.90.6b821802gXbK9t)
 - USB-C cable (for data and programming)
 - **26 pin 0.5mm pitch 20cm** FFC(felxible flat cable) forward direction (to inteface between two camera PCBs) [link](https://www.aliexpress.com/item/1005008474655738.html?spm=a2g0o.order_list.order_list_main.60.6b821802gXbK9t)
 - **3 pin-J Micro JST XH 2.54mm pitch** male plug with wire (to connect the thermometer to the PCB) [link](https://www.aliexpress.com/item/1005007107123815.html?spm=a2g0o.order_list.order_list_main.65.6b821802gXbK9t)
 
-SCREWS
+**SCREWS**
 - Screws: [missing list]
 - Threaded inserts: [missing list]
 
