@@ -1,3 +1,6 @@
+# Simple driver to control the TEC Driver PCB.
+# Requires pyb_ina219 and Onewire_DS18X20 libraries.
+
 from machine import Pin, I2C, PWM
 from ina219 import INA219
 import _thread
