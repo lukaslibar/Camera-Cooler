@@ -84,4 +84,4 @@ The Peltier element (TEC) needs to be fitted to the bottom of the heatsink, with
 
 ### Mechanical Assembly
 ![Assembly of 3d printed parts](project-folder/hardware/mechanical/Assembly/camera-cooler-assembly.gif)
-*Assembly of 3d printed parts and pcb*
+*Assembly of 3d-printed parts and pcb*
