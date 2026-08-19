@@ -60,8 +60,8 @@ PROBLEMS:
 - **3 pin-J Micro JST XH 2.54mm pitch** male plug with wire (to connect the thermometer to the PCB) [link](https://www.aliexpress.com/item/1005007107123815.html?spm=a2g0o.order_list.order_list_main.65.6b821802gXbK9t)
 
 **SCREWS**
-- Screws: [missing list]
-- Threaded inserts: [missing list]
+- Screws: 16 x M3x4, 2/4 x M5x10 (2 are sufficient, for mounting the enclosure fan), 2/4 x M5x47 (2 are sufficient, for mounting the main fan to the heatsink)
+- Threaded inserts: 16 x M3x5
 
 ### PCB
 PCB assembly is quite straightforward. The only exception is soldering the XL4016E1 and its heatsink. They should first be screwed together with a small amount of thermal pad or thermal paste between them. The assembly should then be placed on the PCB and soldered in place at the same time to prevent misalignment.
