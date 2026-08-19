@@ -43,7 +43,7 @@ PROBLEMS:
 - Generic **12V 40mm 2/3/4pin 10mm height** fan (to cool the enclosure) 
 
 **HEATSINKS**
-- 25×34×12mm TO-220 heatsink (to cool the buck converter (XL4016E1) that powers the TEC) [link](https://www.aliexpress.com/item/1005005843184927.html?spm=a2g0o.order_list.order_list_main.70.6b821802gXbK9t#nav-description)
+- 25×34×12mm TO-220 heatsink *(to cool the buck converter (XL4016E1) that powers the TEC)* [link](https://www.aliexpress.com/item/1005005843184927.html?spm=a2g0o.order_list.order_list_main.70.6b821802gXbK9t#nav-description)
 - Aluminium motherboard heatsink for a 40mm fan [link](https://www.aliexpress.com/item/1005009277375992.html?spm=a2g0o.order_list.order_list_main.95.6b821802gXbK9t)
 
 **THERMAL PAD AND PASTE**
@@ -54,14 +54,14 @@ PROBLEMS:
 - DS18B20 (**2 are already in the BOM** but only one is currently integrated)
 
  **INTERFACE**
-- **19V 6A** (at least) DC Power Supply with **2.54mm** barrel jack (for power) [link](https://www.aliexpress.com/item/1005004085574495.html?spm=a2g0o.order_list.order_list_main.90.6b821802gXbK9t)
+- **19V 6A** (at least) DC Power Supply with **2.54mm** barrel jack *(for power)* [link](https://www.aliexpress.com/item/1005004085574495.html?spm=a2g0o.order_list.order_list_main.90.6b821802gXbK9t)
 - USB-C cable (for data and programming)
-- **26 pin 0.5mm pitch 20cm** FFC(felxible flat cable) forward direction (to inteface between two camera PCBs) [link](https://www.aliexpress.com/item/1005008474655738.html?spm=a2g0o.order_list.order_list_main.60.6b821802gXbK9t)
-- **3 pin-J Micro JST XH 2.54mm pitch** male plug with wire (to connect the thermometer to the PCB) [link](https://www.aliexpress.com/item/1005007107123815.html?spm=a2g0o.order_list.order_list_main.65.6b821802gXbK9t)
+- **26 pin 0.5mm pitch 20cm** FFC(felxible flat cable) forward direction *(to inteface between two camera PCBs)* [link](https://www.aliexpress.com/item/1005008474655738.html?spm=a2g0o.order_list.order_list_main.60.6b821802gXbK9t)
+- **3 pin-J Micro JST XH 2.54mm pitch** male plug with wire *(to connect the thermometer to the PCB)* [link](https://www.aliexpress.com/item/1005007107123815.html?spm=a2g0o.order_list.order_list_main.65.6b821802gXbK9t)
 
 **SCREWS**
-- Screws: 16 x M3x4, 2/4 x M5x10 (2 are sufficient, for mounting the enclosure fan), 2/4 x M5x47 (2 are sufficient, for mounting the main fan to the heatsink)
-- Threaded inserts: 16 x M3x5
+- **Screws:** 16 x M3x4 *(2 screws from the Svbony camera can be reused here, the other 2 are used to mount the camera-cooler.stl to the camera)*, 2/4 x M5x10 *(2 are sufficient, for mounting the enclosure fan)*, 2/4 x M5x47 *(2 are sufficient, for mounting the main fan to the heatsink)*, 7 x M2x5 *(to hold down both PCBs)*
+- **Threaded inserts:** 16 x M3x5
 
 ### PCB
 PCB assembly is quite straightforward. The only exception is soldering the XL4016E1 and its heatsink. They should first be screwed together with a small amount of thermal pad or thermal paste between them. The assembly should then be placed on the PCB and soldered in place at the same time to prevent misalignment.
