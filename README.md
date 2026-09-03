@@ -20,7 +20,7 @@ This project is an attempt to actively cool the Svbony SV7505C astronomy camera.
 We are currently developing the REV B PCB, which will eliminate some issues with incorrect connectors (fen connectors) and add the ability to completely disable the Peltier element (TEC) (with an additional MOSFET). At the moment, there are MicroPython example programs for controlling the device, but we are developing a C++ driver to make the system faster and more efficient. There is also a simple GUI, but the USB port currently needs to be configured manually.
 
 **PROBLEMS:**
-- Only 20°C of temperature difference(?broken TEC? Possible solution: change the TEC) **ordered another*
+- ~~Only 20°C of temperature difference(?broken TEC? Possible solution: change the TEC)~~ **with new TEC about 25°C*
 - Condensation is accumulating after long periods of runing the device(Possible solution: improve insulation, heat the other side of the camera)
 - ~~Slow response time (Possible solution: rewrite the driver in C++)~~  **still needs tuning*
 - Noisy fan (Possible solution: change it for a slower fan or a Noctua fan)
